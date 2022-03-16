@@ -17,14 +17,15 @@ public class Funcionario {
 		System.out.println("Negociando");
 	}
 	
-	public void vender() {
-		System.out.println("Vendendo");
+	public void id() {
+		System.out.println("Id: "+id);
 	}
 	
 	public static void main(String[] args) {
-		Funcionario F1 = new Funcionario("Gilberto", 5478652);
+	Funcionario F1 = new Funcionario("Gilberto", 5478652);
+	System.out.println("Vendedor: " + F1.nome);
 		
 		F1.negociar();
-		F1.vender();
+		F1.id();
 	}
 }

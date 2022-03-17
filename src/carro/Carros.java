@@ -55,9 +55,8 @@ public class Carros {
 	public static void main(String[] args) {
 	Carros C1 = new Carros("FDP0589",2.0,"Face","Cinza","Cherry",false,2011);
 	System.out.println("Placa:" + C1.placa);
-	
 	Carros C2 = new Carros ("PAOH456",5.9,"Brasilia","Branco","Chevrolet",true,2022);
-	
+	''
 	C1.ano=2020;
 	C1.cor="vermelho";
 	C1.andar();

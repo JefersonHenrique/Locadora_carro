@@ -2,11 +2,11 @@ package carro;
 
 public class Funcionario {
 	public String nome;
-	public Number id;
+	public int id;
 	
 	public Funcionario (
 			String nome,
-			Number id
+			int id
 			)
 	{
 		this.nome = nome;
